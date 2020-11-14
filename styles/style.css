@@ -1,0 +1,67 @@
+.ant-layout-sider-children {
+  height: 100vh;
+}
+#components-layout-demo-responsive .logo {
+  height: 32px;
+
+  margin: 16px;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #87d068;
+}
+body {
+  color: #001529;
+}
+.anticon svg {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+Col {
+  margin: 10px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pay {
+  margin: 2px;
+  width: 40px;
+  height: 30px;
+}
+.site-card-border-less-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  display: flex;
+}
+.card-postproject {
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.active {
+  font-size: bold;
+}
+@media only screen and (max-width: 600px) {
+  .pay {
+    width: 30px;
+    height: 20px;
+  }
+  col {
+    margin: 5px;
+  }
+}
